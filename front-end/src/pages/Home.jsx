@@ -40,7 +40,10 @@ const Home = () => {
         transition={{ duration: 0.5 }}
       >
         <Flex gap="middle" align="center" justify="center">
-          <Avatar size={64} src="/audio-waves.png" />
+          <Avatar
+            size={64}
+            src={`${import.meta.env.BASE_URL}audio-waves.png`}
+          />
           <h2 style={{ textAlign: "center", color: "#694cc8" }}>True Voice</h2>
         </Flex>
 
