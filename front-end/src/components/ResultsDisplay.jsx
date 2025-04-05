@@ -31,7 +31,7 @@ const ResultsDisplay = ({ result }) => {
             color={isSpoof ? "red" : "green"}
             style={{ fontSize: 16, padding: "5px 10px" }}
           >
-            {result.probability.toFixed(2)}%
+            {100 * result.probability.toFixed(2)}%
           </Tag>
         </Text>
       </Card>
