@@ -13,7 +13,7 @@ const AudioUploader = ({ onUpload }) => {
 
   return (
     <Upload {...props}>
-      <Button icon={<UploadOutlined />}>Upload Audio</Button>
+      <Button size="large" icon={<UploadOutlined />}>Upload Audio</Button>
     </Upload>
   );
 };

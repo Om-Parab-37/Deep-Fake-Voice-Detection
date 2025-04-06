@@ -29,7 +29,7 @@ const AnalyzeButton = ({ audioBlob, onResult, result }) => {
 
   return (
     <div>
-      <Button type="primary" onClick={handleAnalyze} disabled={isPending}>
+      <Button size="large" type="primary" onClick={handleAnalyze} disabled={isPending}>
         {isPending ? (
           <Spin size="small" />
         ) : result ? (

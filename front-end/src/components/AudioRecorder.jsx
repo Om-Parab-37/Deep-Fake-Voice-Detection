@@ -90,6 +90,7 @@ const AudioRecorder = ({ onRecord }) => {
 
   return (
     <Button
+    size="large"
       onClick={recording ? stopRecording : startRecording}
       type="primary"
       danger={recording} // Changes to red while recording
